@@ -1,0 +1,67 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 150;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 122, 80);
+    min-height: 100vh;
+}
+
+  .main-content {
+    top: 10%;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+
+  #about {
+    text-align: center;
+    padding: 200px;
+    padding-bottom: 80px !important;
+  }
+
+  #team-title {
+    text-align: center;
+    padding: 50px;
+  }
+
+  /* paragraph style */
+p {
+    font-size: 16px;
+    color: rgb(252, 255, 117);
+}
+
+h2 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.float-left{
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right{
+    float:right;
+    margin-left:25px;
+}
+
+/* PROFILE ALIGNMENT BEGINS */
+
+.tim-image img, .elena-image img , .ada-image img , .oleksandr-image img , .aniruddha-image img {
+    width:350px;
+}
+
+.tim-text , .elena-text , .ada-text , .oleksandr-text, .aniruddha-text {
+    padding: 100px;
+    text-align: left;
+}

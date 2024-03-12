@@ -1,0 +1,158 @@
+:root {
+    --orange: rgb(255, 122, 80);
+    --cream: #FFEBD4;
+    --yellow: #FCFF75;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background-color: var(--orange);
+    background-image: url("../images/wave-background.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    width: 100vw;
+}
+
+.logo {
+    position:fixed;
+    left: 0px;
+    top:10px;
+    width:90px;
+}
+
+.navbar ul{
+    z-index: 1000;
+    list-style: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    top: 0px;
+    text-align: center;
+    position:fixed;
+    right: 30px;
+}
+
+.navbar li{
+    display: inline-block;
+    z-index: 1000;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(252, 255, 117);
+    display: block;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 130px;
+}
+
+.icon {
+    top:25px;
+    width: 30px;
+    height:18px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: rgb(255, 122, 80);
+    background:rgb(252, 255, 117);
+    width: 130px;
+}
+
+.icon img {
+    width: 100%;
+    display:block;
+}
+
+/* Mobile Navbar */
+#mobile-menu-btn {
+    display: none;
+}
+
+.mobile-menu {
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    right: 0;
+    height: 60vh;
+    width: 70vw;
+}
+
+/*Modal Form*/
+.modal-content {
+    background-color: var(--cream);
+    opacity: var(--bs-backdrop-opacity);
+}
+
+.modal-body {
+    border: var(--orange) !important;
+}
+
+.modal-body p {
+    color: var(--orange);
+    text-align: center;
+}
+
+.modal-title {
+    color: var(--orange);
+}
+
+.modal-footer button {
+    background-color: var(--orange);
+    border: var(--orange);
+}
+
+.modal-footer button:hover {
+    background-color: var(--yellow);
+    border: var(--yellow);
+    color: var(--orange);
+}
+
+.modal-body img {
+    padding-bottom: 50px;
+}
+
+/*Footer*/
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 16px;
+}
+
+footer li {
+    padding: 10px 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 255, 117);
+    padding-left: 15px;
+}
+
+footer img {
+    width: 35px;
+}

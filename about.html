@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About - Meow finder</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  
+    <link rel="stylesheet" href="assets/css/about_style.css" />
+    <link rel="stylesheet" href="assets/css/all_style.css"/>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+</head>
+
+
+<body>
+
+<!-- NAVBAR-BEGIN -->
+<header class="navbar">
+  <label class="logo"><img src="assets/images/paw_nav.png"></label>
+  <ul>
+    <li><a id="randomCatFact" type="button" class="cat-icon" data-bs-toggle="modal" data-bs-target="#cat-fact"><label class="icon"><img src="assets/images/icon2.png"></label></a></li>
+    <li><a href = "index.html">Home</a></li></lil>
+    <li><a href = "search.html">Search</a></li>
+    <li><a href = "catalogue.html">Catalogue</a></li>
+    <li><a href = "about.html">About</a></li>
+  </ul>
+</header>
+<!-- Modal -->
+  <div id="modal-cat-fact">
+    <div class="modal" id="cat-fact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Cat Fact!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img id="cat-fact-img">
+            <p id="cat-fact-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Error Modal Form-->
+<div class="modal fade" id="error" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Error</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div id="error-message" class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- NAVBAR-END -->
+
+<!-- Main body -->
+
+<main class="main-content">
+
+
+<!-- PAGE-TITLE BEGIN -->
+
+<section id="about">
+  <h2><u>About</u></h2>
+
+  <p>Meow-finder is a website for cat lovers that shows different cat breeds with pictures and details. Using quality filtering tools, it makes it easy for users to quickly find and choose the perfect cat for their household. </p>
+  <p>This website was developed using  HTML, CSS, Bootstrap, Javascript, jQuery, Web API calls from NinjaAPI and TheCatAPI.</p>
+</section>
+
+<!-- PAGE-TITLE-ENDS -->
+
+<!-- TEAM TITLE BEGINS -->
+
+<section id="team-title">
+  <h2><u>The Meow Finder Team</u></h2>
+</section>
+
+<!-- TEAM TITLE ENDS -->
+
+
+
+
+<div class="members">
+<!-- ABOUT TIM -->
+  <section id="tim-about" class="tim-image">
+    <img src="assets/images/circle.png" alt:"" class="float-left">
+
+    <div class="tim-text" class="float-right">
+    <h3> Arvinder Anand (Tim)</h3>
+
+    <h4><i>Project Leader, Back-End Developer and Quality Control Tester.</i></h4>
+
+     <p> Trustworthy Software Developer with 10+ years of practical experience and dedicated work ethic. 
+      Self-motivated to consistently provide first-class results in line with tight schedules and high standards. 
+      In the journey towards excellence, the commitment to continuous learning.</p>
+      
+  </div>
+  </section>
+  <!-- ABOUT TIM -ENDS -->
+
+  <!-- ABOUT ELENA BEGINS -->
+  <section id="elena-about" class="elena-image">
+    <img src="assets/images/elena.png" alt:"" class="float-right">
+
+    <div class="elena-text" class="float-left">
+    <h3> Elena Golovko</h3>
+
+    <h4><i>Front-End Developer and Quality Control Tester.</i></h4>
+
+     <p> I have always been interested in programming and decided to take a step forward by joining the EDX Bootcamp.
+       I was fortunate enough to work remotely on GitHub with this wonderful team on this project. 
+       Together, we all worked diligently to create HTML, CSS, and JavaScript files. Welcome to our world of cats, programming, and brilliant teamwork. </p>
+  </div>
+  </section>
+  <!-- ABOUT ELENA ENDS -->
+
+  <!-- ABOUT ADRIANNA -->
+  <section id="ada-about" class="ada-image">
+    <img src="assets/images/adrianna.png" alt:"" class="float-left">
+
+    <div class="ada-text" class="float-right">
+    <h3> Adrianna Hollins</h3>
+
+    <h4><i>Front-End Developer and Quality Control Tester.</i></h4>
+
+     <p> Educated in Graphic Design and currently learning coding from Front-End Web Development Skills Bootcamp by edX.
+       Have software skills in Adobe Creative Suite and currently coding language knowledge of HTML, CSS, JavaScript and jQuery. </p>
+  </div>
+  </section>
+  <!-- ABOUT ADRIANNA ENDS -->
+
+  <!-- ABOUT OLEKSANDR BEGINS -->
+  <section id="olexandr-about" class="oleksandr-image">
+    <img src="assets/images/oleksandr.png" alt:"" class="float-right">
+
+    <div class="oleksandr-text" class="float-left">
+    <h3> Oleksandr Khomych</h3>
+
+   <h4><i> Assistant Leader, Back-End Developer and Quality Control Tester.</i></h4>
+
+     <p>Self-motivated for learning and professional development. I want to become a Full-Stack developer and so I decided to join the edX BootCamp Front-End development course.
+      It gives me a good basis on HTML, CSS, Javascript, Bootstrap, JQuery, Node.js, Reactincluding lot of practical tasks (special thanks to them for this).</p>
+      <p>I also want to say thank you to my excellent team for their professionalism and dedication for the success of this project.</p>
+  </div>
+  </section>
+<!-- ABOUT OLEKSANDR ENDS -->
+
+<!-- ABOUT ANIRUDDHA BEGINS -->
+<section id="aniruddha-about" class="aniruddha-image">
+<img src="assets/images/aniruddha.png" alt:"" class="float-left">
+
+<div class="aniruddha-text" class="float-right">
+<h3> Sridhar Aniruddha </h3>
+
+<h4><i>Front-End Developer and Quality Control Tester.</i></h4>
+
+ <p> Illustrator-Graphic Designer hybrid with an interest in typography and digital design. I enjoy animating and creating models on blender.</p>
+  <p>Currently enrolled in a Front End Web Development bootcamp and learning to code using HTML, CSS, and JavaScript.  </p>
+</div>
+</section>
+<!-- ABOUT ANIRUDDHA ENDS -->
+
+</div>
+</main>
+
+
+<footer>
+  <ul>
+    <li><a href="https://www.instagram.com/explore/tags/cat/" target="_blank"><img src="assets/images/instagram_icon.png"></a></li>
+    <li><a href="https://twitter.com/hashtag/cat?src=hashtag_click" target="_blank"><img src="assets/images/twitter_icon.png"></a></li>
+    <li><a href="https://www.pinterest.co.uk/search/pins/?q=cat&rs=typed" target="_blank"><img src="assets/images/pinterest_icon.png"></a></li>
+  </ul>
+  <p>&copy; 2024 Meowfinder. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="./assets/js/api-thecat.js"></script>
+
+</body>
+</html>
